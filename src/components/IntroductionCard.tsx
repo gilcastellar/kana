@@ -17,7 +17,7 @@ function IntroductionCard() {
         
       </Text>
       <Text>
-        Caso você nunca tenha aprendido o hiragana e/ou o katakana, recomenda-se que siga pela opção "Aprendizado Estruturado" abaixo. Caso queira treinar, as duas opções seguintes são mais indicadas.
+        Caso você nunca tenha aprendido o hiragana e/ou o katakana, recomenda-se que siga pela opção "Aprendizado Estruturado" abaixo. Se quer treinar, as duas opções seguintes são mais indicadas.
       </Text>
       <Title order={4} mt="sm">
         Como usar
