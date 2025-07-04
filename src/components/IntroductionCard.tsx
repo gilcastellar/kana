@@ -13,7 +13,7 @@ function IntroductionCard() {
   return (
     <TitledCard title="Kana" collapsible>
       <Text>
-        Kana is the very first thing a Japanese learner needs to learn. It refers to {bold("hiragana")} and{" "}
+        Kanaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa is the very first thing a Japanese learner needs to learn. It refers to {bold("hiragana")} and{" "}
         {bold("katakana")}, the two scripts of the Japanese language. You can read the relevant section and resources on
         the brilliant <Anchor href="http://learnjapanese.moe/guide/#kana">learnjapanese.moe</Anchor> guide to learn
         more.
