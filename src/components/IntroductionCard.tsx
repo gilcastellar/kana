@@ -13,7 +13,7 @@ function IntroductionCard() {
   return (
     <TitledCard title="Sobre" collapsible>
       <Text>
-        Esta é a versão em português brasileiro do <Anchor href="https://vedxyz.github.io/kana/">aplicativo criado por vedxyz</Anchor>. Se você sabe tem domínio do inglês, utilize este aplicativo por lá.
+        Esta é a versão em português brasileiro do <Anchor href="https://vedxyz.github.io/kana/">aplicativo criado por vedxyz</Anchor>. Se você tem domínio do inglês, utilize este aplicativo por lá.
         
         Se você nunca aprendeu o hiragana e/ou o katakana, recomenda-se que siga pela opção "Aprendizado Estruturado" abaixo. Caso queira treinar, as duas opções seguintes são mais indicadas.
       </Text>
