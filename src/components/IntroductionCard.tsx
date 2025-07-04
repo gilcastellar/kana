@@ -14,9 +14,8 @@ function IntroductionCard() {
     <TitledCard title="Sobre" collapsible>
       <Text>
         Esta é a versão em português brasileiro do <Anchor href="https://vedxyz.github.io/kana/">aplicativo criado por vedxyz</Anchor>. Se você tem domínio do inglês, utilize este aplicativo por lá.
-        
       </Text>
-      <Text>
+      <Text  mt="sm">
         Caso você nunca tenha aprendido o hiragana e/ou o katakana, recomenda-se que siga pela opção "Aprendizado Estruturado" abaixo. Se quer treinar, as duas opções seguintes são mais indicadas.
       </Text>
       <Title order={4} mt="sm">
