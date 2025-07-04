@@ -11,31 +11,19 @@ function IntroductionCard() {
   );
 
   return (
-    <TitledCard title="Kana" collapsible>
+    <TitledCard title="Sobre" collapsible>
       <Text>
-        Kanaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa is the very first thing a Japanese learner needs to learn. It refers to {bold("hiragana")} and{" "}
-        {bold("katakana")}, the two scripts of the Japanese language. You can read the relevant section and resources on
-        the brilliant <Anchor href="http://learnjapanese.moe/guide/#kana">learnjapanese.moe</Anchor> guide to learn
-        more.
+        Esta é a versão em português brasileiro do <Anchor href="https://vedxyz.github.io/kana/">original em inglês criado por vedxyz</Anchor>. Se você sabe tem domínio do inglês, utilize este aplicativo por lá.
+        
+        Se você nunca aprendeu o hiragana e/ou o katakana, recomenda-se que siga pela opção "Aprendizado Estruturado" abaixo. Caso queira treinar, as duas opções seguintes são mais indicadas.
       </Text>
 
       <Title order={4} mt="sm">
-        About
+        Como usar
       </Title>
       <Text>
-        This is a page aiming to be an easy, effective, quick way to learn kana without suffering through mnemonics and
-        such. All you need to do is to spend some time with the extremely simple exercise below, in which you will try
-        to answer with the correct{" "}
-        <Tooltip {...tooltipProps} label="Romanized spelling used to transliterate Japanese">
-          <Text span italic c="blue.2" sx={{ textDecoration: "underline dotted" }}>
-            romaji
-          </Text>
-        </Tooltip>{" "}
-        for the shown kana. This way of learning is also referred to as brute forcing, because you try again and again
-        until it sticks, and in the case of kana, it sticks rather easily with this method.
-      </Text>
-      <Text mt="xs" fz="xs">
-        Have an issue/request/etc.? Open an issue on <Anchor href="https://github.com/vedxyz/kana">GitHub</Anchor>.
+        O uso prático deste aplicativo de aprendizado e memorização de Kana é bem simples: após selecionar o modo de uso abaixo, um kana (ou uma palavra dependendo do modo) aparecerá e você deve digitar o som do mesmo
+        em nosso alfabeto, utilizando a caixa de texto "romaji". Se estiver correto, um novo kana (ou palavra) aparecerá na sequência. Se estiver errado, você tenta novamente até acertar.
       </Text>
     </TitledCard>
   );
