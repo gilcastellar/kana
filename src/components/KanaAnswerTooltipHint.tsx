@@ -4,7 +4,7 @@ import { browserIsMobile } from "../utilities/mobile";
 
 function KanaAnswerTooltipHint() {
   return (
-    <Text c="dimmed" fz="xs" opacity={0.5}>
+    <Text c="dimmed" fz="xs" opacity={0.7}>
       {browserIsMobile ? "Toque" : "Passe o mouse sobre"} o kana para revelar a resposta
     </Text>
   );
