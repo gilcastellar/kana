@@ -21,8 +21,8 @@ function BruteForceMenu() {
     <Container px={0}>
       <Text>
         Neste modo você passará por estágios que te introduzirão um grupo de kana por vez. A resposta para novos kana aparecerá
-        automaticamente, por isso foque na forma do kana. Após cada um desses estágios, haverá um momento para revisão do que já aprendeu. 
-        Após cumprir os requerimentos você passará para o próximo estágio.
+        automaticamente, por isso foque na sua forma. Após cada um desses estágios, haverá um momento para revisão do que já foi aprendido. 
+        Após cumprir os requerimentos, você passará para o próximo estágio.
       </Text>
       <Title order={4} mt="sm">
         Dicas
@@ -31,7 +31,7 @@ function BruteForceMenu() {
         <List.Item>
           Não sinta-se pressionado para seguir para o próximo estágio imediatamente quando oferecido, reflita se está preparado.
         </List.Item>
-        <List.Item>Você pode acabar notando que este aplicativo não salvar seu progresso, mas não se preocupe: você pode continuar 
+        <List.Item>Você pode acabar notando que este aplicativo não salva seu progresso, mas não se preocupe: você pode continuar 
         de qualquer coluna antes de recomeçar a estudar.</List.Item>
         <List.Item>Em média, são necessárias 1.600 respostas corretas para terminar todos os estágios.</List.Item>
         <List.Item>
