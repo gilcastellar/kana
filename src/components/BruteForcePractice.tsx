@@ -171,7 +171,7 @@ function BruteForcePractice({ kanaType }: BruteForcePracticeProps) {
       totalCount: prev.totalCount,
       remainingLimits: buildRemainingKanaLimits(
         newKanaOfStage,
-        statThresholds[newStage.learning ? "learning" : "reviewing"].perKanaLimit,
+        statThresholds[newStage.learning ? "aprendendo" : "revisando"].perKanaLimit,
       ),
       rollingWindow: [],
       rollingWindowInEffect: false,
@@ -193,37 +193,37 @@ function BruteForcePractice({ kanaType }: BruteForcePracticeProps) {
 
       {bruteForce.isFinalStage(stage.stage) && !stage.learning && stageSatisfied ? (
         <Container mt="3rem" fz="sm" px={0}>
-          <Text>Congratulations! You have learnt {kanaType}! </Text>
+          <Text>Parabéns! Você aprendeu o {kanaType}! </Text>
           <Text>
-            If you&apos;re still missing {kanaType === "hiragana" ? "katakana" : "hiragana"}, you can learn that now.
-            You can also make use of Free Mode and Word Mode.
+            Se você ainda não aprendeu o {kanaType === "hiragana" ? "katakana" : "hiragana"}, você pode fazê-lo agora. 
+            Além disso, você pode usufruir dos modos livre e com palavras.
           </Text>
         </Container>
       ) : (
         <Group position="apart" mt="3rem" align="end">
           <div>
             <Text c="dimmed" fz="sm">
-              {stage.learning ? "Learning" : "Reviewing up to stage"} {stage.stage.name}
+              {stage.learning ? "Aprendendo" : "Revisando"} {stage.stage.name}
             </Text>
             <Text c="dimmed" fz="xs">
               {!stageSatisfied
                 ? statCounts.remainingLimitsCount > 0
-                  ? `${statCounts.remainingLimitsCount} distinct kana left to eliminate (${statCounts.remainingLimitsTotal} total)`
-                  : `${
+                  ? `${statCounts.remainingLimitsCount} kana diferentes para eliminar (${statCounts.remainingLimitsTotal} no total)`
+                  : `Mais ${
                       effectiveStatThresholds.rollingWindowCorrectLimit - statCounts.rollingCorrectCount
-                    } more correct answers needed to clear the stage`
-                : "Stage cleared! Proceed to the next stage if you feel confident"}
+                    } respostas corretas para terminar o estágio`
+                : "Estágio finalizado! COntinue para o próximo se achar que está pronto!"}
             </Text>
           </div>
           {stageSatisfied ? (
             <Button variant="light" onClick={() => handleStageChange(computeNextStageState())}>
-              Next Stage ({stage.learning ? "Review" : nextStage.name})
+              Next Stage ({stage.learning ? "Revisão" : nextStage.name})
             </Button>
           ) : (
             <Text c="dimmed" fz="xs">
               {nextStage || stage.learning
-                ? `Next Stage (${stage.learning ? "Review" : nextStage.name})`
-                : "Final Stage"}
+                ? `Próximo estágio (${stage.learning ? "Revisão" : nextStage.name})`
+                : "Último estágio"}
             </Text>
           )}
         </Group>
@@ -236,7 +236,7 @@ function BruteForcePractice({ kanaType }: BruteForcePracticeProps) {
           <KanaAnswerTooltipHint />
         </Group>
         <Group>
-          <Tooltip {...tooltipProps} label="Correct / Total">
+          <Tooltip {...tooltipProps} label="Corretos / Total">
             <Text c="dimmed" fz="sm">{`${stats.correctCount} / ${stats.totalCount}`}</Text>
           </Tooltip>
         </Group>
