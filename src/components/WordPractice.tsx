@@ -76,7 +76,7 @@ function WordPractice() {
             href={`https://jisho.org/search/${currentKana.kana}`}
             target="_blank"
           >
-            Search Jisho
+            Procurar no Jisho
           </Button>
           <PracticeOptions.CollapseButton opened={openedOptions} onClick={toggleOptions} />
           <KanaAnswerTooltipHint />
