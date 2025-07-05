@@ -1,4 +1,4 @@
-import { Button, Collapse, Container, Divider } from "@mantine/core";
+cimport { Button, Collapse, Container, Divider } from "@mantine/core";
 import React from "react";
 
 export interface PracticeOptionsProps {
@@ -26,7 +26,7 @@ export interface PracticeOptionsCollapseButtonProps {
 function PracticeOptionsCollapseButton({ opened, onClick }: PracticeOptionsCollapseButtonProps) {
   return (
     <Button variant="subtle" size="sm" onClick={onClick}>
-      {opened ? "Hide" : "Show"} Options
+      {opened ? "Esconder" : "Mostrar"} opções
     </Button>
   );
 }
