@@ -171,7 +171,7 @@ function BruteForcePractice({ kanaType }: BruteForcePracticeProps) {
       totalCount: prev.totalCount,
       remainingLimits: buildRemainingKanaLimits(
         newKanaOfStage,
-        statThresholds[newStage.learning ? "aprendendo" : "revisando"].perKanaLimit,
+        statThresholds[newStage.learning ? "learning" : "reviewing"].perKanaLimit,
       ),
       rollingWindow: [],
       rollingWindowInEffect: false,
