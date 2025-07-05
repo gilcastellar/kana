@@ -72,7 +72,7 @@ function PracticeKanaInput({
     <Container>
       <Stack align="center">
         <Tooltip {...tooltipProps} key={stringifiedRomaji} label={stringifiedRomaji} opened={showAnswer}>
-          <Text size={wordMode ? "1.4rem" : "3.75rem"}>{kana}</Text>
+          <Text size={wordMode ? "5.4rem" : "3.75rem"}>{kana}</Text>
         </Tooltip>
       </Stack>
       <Group position="center">
