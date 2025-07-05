@@ -7,7 +7,7 @@ function ExplanationCard() {
   const RightArrow = <IconArrowNarrowRight style={{ verticalAlign: "middle" }} />;
 
   return (
-    <TitledCard title="Explanation" titleOrder={3} collapsible>
+    <TitledCard title="Detalhes" titleOrder={3} collapsible>
       <div
         dangerouslySetInnerHTML={{ __html: "<!-- This information was taken/paraphrased from the DJT kana page. -->" }}
       />
