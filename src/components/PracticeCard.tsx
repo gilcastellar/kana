@@ -54,7 +54,7 @@ function PracticeCard() {
   }
 
   return (
-    <TitledCard title="Practice" titleOrder={3} titleActionElement={page !== "menu" ? backToMenuButton : undefined}>
+    <TitledCard title="Praticar" titleOrder={3} titleActionElement={page !== "menu" ? backToMenuButton : undefined}>
       {pageElement}
     </TitledCard>
   );
