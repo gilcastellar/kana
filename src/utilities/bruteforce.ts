@@ -15,47 +15,47 @@ export interface BruteForcePracticeStage {
 
 const bruteForcePracticeStages: readonly BruteForcePracticeStage[] = Object.freeze([
   {
-    name: "Vowels",
+    name: "Vogais",
     kana: ["regular_vowel"],
   },
   {
-    name: "Consonant K",
+    name: "Consoante K",
     kana: ["regular_k"],
   },
   {
-    name: "Consonant S",
+    name: "Consoante S",
     kana: ["regular_s"],
   },
   {
-    name: "Consonant T",
+    name: "Consoante T",
     kana: ["regular_t"],
   },
   {
-    name: "Consonant N",
+    name: "Consoante N",
     kana: ["regular_n"],
   },
   {
-    name: "Consonant H",
+    name: "Consoante H",
     kana: ["regular_h"],
   },
   {
-    name: "Consonant M",
+    name: "Consoante M",
     kana: ["regular_m"],
   },
   {
-    name: "Consonant Y",
+    name: "Consoante Y",
     kana: ["regular_y"],
   },
   {
-    name: "Consonant R",
+    name: "Consoante R",
     kana: ["regular_r"],
   },
   {
-    name: "Consonant W",
+    name: "Consoante W",
     kana: ["regular_w"],
   },
   {
-    name: "Consonant N (single)",
+    name: "Consoante N (única)",
     kana: ["regular_nn"],
   },
   {
@@ -63,7 +63,7 @@ const bruteForcePracticeStages: readonly BruteForcePracticeStage[] = Object.free
     kana: ["dakuten_g", "dakuten_z", "dakuten_d", "dakuten_b", "dakuten_p"],
   },
   {
-    name: "Combinations",
+    name: "Combinações",
     kana: [
       "combination_k",
       "combination_s",
