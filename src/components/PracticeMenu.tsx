@@ -20,7 +20,7 @@ function PracticeMenu({ onPageChange }: PracticeMenuProps) {
     <Container px={0}>
       <Button {...buttonProps} onClick={() => onPageChange("bruteforce")}>
         <Title order={3}>Aprendizado estruturado</Title>
-        <Text weight="normal">Siga uma sequência estruturada para aprender os alfabetos do zero, uma coluna por vez. Também conhecida como rota da força bruta</Text>
+        <Text weight="normal">Siga uma sequência estruturada para aprender os alfabetos do zero, uma coluna por vez. Também chamada de rota da força bruta</Text>
       </Button>
       <Button {...buttonProps} mt="sm" onClick={() => onPageChange("free")}>
         <Title order={3}>Modo livre</Title>
