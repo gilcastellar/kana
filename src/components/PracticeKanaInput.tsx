@@ -88,7 +88,7 @@ function PracticeKanaInput({
             },
           })}
           maxLength={Math.max(5, ...(Array.isArray(romaji) ? romaji.map((r) => r.length) : [romaji.length]))}
-          placeholder="romaji"
+          placeholder="Digite em romaji"
           value={kanaInputValue}
           error={gaveIncorrectAnswer ? (showCorrectAnswer ? `${kana} = ${stringifiedRomaji}` : true) : false}
           onChange={wordMode ? checkWordInput : checkKanaInput}
