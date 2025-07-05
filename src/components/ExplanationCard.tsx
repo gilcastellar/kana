@@ -34,7 +34,7 @@ function ExplanationCard() {
       </Text>
       <Text mt="sm">
         Os pequenos kana (ゅ, ょ, ゃ, ...) são usados para combinar sons. por exemplo, em ぎゃ, a consoante de ぎ
-        (gi) combina com o som de や (ya), formando o som &quot;gya&quot; O pequeno っ (menor que o つ/tsu) não é pronunciado,
+        (gi) combina com o som de や (ya), formando o som &quot;gya&quot;. O pequeno っ (menor que o つ/tsu) não é pronunciado,
         mas apenas estende a consoante seguinte, como em にっぽん (ni
         <Text span weight={700}>
           pp
