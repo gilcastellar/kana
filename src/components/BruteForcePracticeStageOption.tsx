@@ -51,7 +51,7 @@ function BruteForcePracticeStageOption({
               {opened ? "Esconder" : "Mostrar"} Kana
             </Button>
             <Button variant="light" ml="sm" onClick={() => onStageChange(stage)}>
-              Continue
+              Continuar
             </Button>
           </div>
         )}
