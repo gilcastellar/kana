@@ -12,7 +12,7 @@ function ExplanationCard() {
         dangerouslySetInnerHTML={{ __html: "<!-- This information was taken/paraphrased from the DJT kana page. -->" }}
       />
       <Text>
-        Alguns kana podem receber dois quot;risquinhos&quot;, levemente parecidos com nossas aspas, o {" "}
+        Alguns kana podem receber dois &quot;risquinhos&quot;, levemente parecidos com nossas aspas, o {" "}
         <Anchor href="https://pt.wikipedia.org/wiki/Dakuten_e_Handakuten" italic>
           dakuten
         </Anchor>
@@ -34,7 +34,7 @@ function ExplanationCard() {
       </Text>
       <Text mt="sm">
         Os pequenos kana (ゅ, ょ, ゃ, ...) são usados para combinar sons. por exemplo, em ぎゃ, a consoante de ぎ
-        (gi) combina com o som de や (ya), formando o som quot;gya&quot; O pequeno っ (menor que o つ/tsu) não é pronunciado,
+        (gi) combina com o som de や (ya), formando o som &quot;gya&quot; O pequeno っ (menor que o つ/tsu) não é pronunciado,
         mas apenas estende a consoante seguinte, como em にっぽん (ni
         <Text span weight={700}>
           pp
