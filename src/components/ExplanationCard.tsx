@@ -16,7 +16,7 @@ function ExplanationCard() {
         <Anchor href="https://pt.wikipedia.org/wiki/Dakuten_e_Handakuten" italic>
           dakuten
         </Anchor>
-        , à frente. Isso indica uma alteração no som que o kana produz. Veja abaixo como essas mudanças se comportam:
+        , à sua frente. Isso indica uma alteração no som que o kana produz. Veja abaixo como essas mudanças se comportam:
       </Text>
       <List sx={{ display: "flex", flexWrap: "wrap", columnGap: "2.5rem" }}>
         <List.Item>k {RightArrow} g</List.Item>
@@ -30,7 +30,7 @@ function ExplanationCard() {
         <Anchor href="https://pt.wikipedia.org/wiki/Dakuten_e_Handakuten" italic>
           handakuten
         </Anchor>
-        , à frente. Mais especificamente tornando os kana da coluna H em P. Por xemplo: Ho se torna Po.
+        , à sua frente. Mais especificamente tornando os kana da coluna H em P. Por xemplo: Ho se torna Po.
       </Text>
       <Text mt="sm">
         Os pequenos kana (ゅ, ょ, ゃ, ...) são usados para combinar sons. por exemplo, em ぎゃ, a consoante de ぎ
