@@ -177,7 +177,7 @@ function KanaBoard({ kanaType, combinations = false, onChange, options }: KanaBo
         </Text>
         <Group>
           <Checkbox
-            label="All"
+            label="Todos"
             indeterminate={allHasChecked && allHasUnchecked}
             checked={!allHasUnchecked}
             onChange={() => handleCheckboxGroupToggle("all")}
@@ -185,13 +185,13 @@ function KanaBoard({ kanaType, combinations = false, onChange, options }: KanaBo
           {!combinations && (
             <>
               <Checkbox
-                label="Regular"
+                label="Comum"
                 indeterminate={checks.regular.hasChecked && checks.regular.hasUnchecked}
                 checked={!checks.regular.hasUnchecked}
                 onChange={() => handleCheckboxGroupToggle("regular")}
               />
               <Checkbox
-                label="Dakuten"
+                label="com Dakuten"
                 indeterminate={checks.dakuten.hasChecked && checks.dakuten.hasUnchecked}
                 checked={!checks.dakuten.hasUnchecked}
                 onChange={() => handleCheckboxGroupToggle("dakuten")}
