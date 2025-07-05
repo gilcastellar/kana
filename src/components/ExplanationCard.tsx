@@ -30,7 +30,7 @@ function ExplanationCard() {
         <Anchor href="https://pt.wikipedia.org/wiki/Dakuten_e_Handakuten" italic>
           handakuten
         </Anchor>
-        , à sua frente. Mais especificamente tornando os kana da coluna H em P. Por xemplo: Ho se torna Po.
+        , à sua frente. Mais especificamente tornando os kana da coluna H em P. Por xemplo: Ho (ほ) se torna Po (ぽ).
       </Text>
       <Text mt="sm">
         Os pequenos kana (ゅ, ょ, ゃ, ...) são usados para combinar sons. por exemplo, em ぎゃ, a consoante de ぎ
