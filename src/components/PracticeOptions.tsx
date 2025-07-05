@@ -1,4 +1,4 @@
-cimport { Button, Collapse, Container, Divider } from "@mantine/core";
+import { Button, Collapse, Container, Divider } from "@mantine/core";
 import React from "react";
 
 export interface PracticeOptionsProps {
