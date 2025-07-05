@@ -12,12 +12,11 @@ function ExplanationCard() {
         dangerouslySetInnerHTML={{ __html: "<!-- This information was taken/paraphrased from the DJT kana page. -->" }}
       />
       <Text>
-        Some kana have two dots (◌゙,{" "}
-        <Anchor href="https://en.wikipedia.org/wiki/Dakuten" italic>
+        Alguns kana podem receber dois quot;risquinhos&quot;, levemente parecidos com nossas aspas, o {" "}
+        <Anchor href="https://pt.wikipedia.org/wiki/Dakuten_e_Handakuten" italic>
           dakuten
         </Anchor>
-        ) next to them to indicate that the consonant is &quot;muddied&quot; For example, か (ka) becomes が (ga). The
-        consonants transform as follows:
+        , à frente. Isso indica uma alteração no som que o kana produz. Veja abaixo como essas mudanças se comportam:
       </Text>
       <List sx={{ display: "flex", flexWrap: "wrap", columnGap: "2.5rem" }}>
         <List.Item>k {RightArrow} g</List.Item>
@@ -27,24 +26,20 @@ function ExplanationCard() {
         <List.Item>sh/ch {RightArrow} j</List.Item>
       </List>
       <Text>
-        Some other kana add a circle (◌゚) to indicate a &quot;p&quot; transformation. For example, ほ (ho) becomes ぽ
-        (po).
+        Também é possível que alguns kana recebam uma bolinha, o {" "}
+        <Anchor href="https://pt.wikipedia.org/wiki/Dakuten_e_Handakuten" italic>
+          handakuten
+        </Anchor>
+        , à frente. Mais especificamente tornando os kana da coluna H em P. Por xemplo: Ho se torna Po.
       </Text>
       <Text mt="sm">
-        The smaller kana (ゅ, ょ, ゃ, ...) are used to combine kana sounds. For example, in ぎゃ, the consonant of ぎ
-        (gi) combines with the sound from や (ya) to form &quot;gya&quot;. The small っ (distinct from つ/tsu) is not
-        itself pronounced, but lengthens the consonant that follows, as in にっぽん (ni
+        Os pequenos kana (ゅ, ょ, ゃ, ...) são usados para combinar sons. por exemplo, em ぎゃ, a consoante de ぎ
+        (gi) combina com o som de や (ya), formando o som quot;gya&quot; O pequeno っ (menor que o つ/tsu) não é pronunciado,
+        mas apenas estende a consoante seguinte, como em にっぽん (ni
         <Text span weight={700}>
           pp
         </Text>
         on).
-      </Text>
-      <Text italic mt="sm">
-        See the relevant sections on{" "}
-        <Anchor href="https://gohoneko.neocities.org/grammar/taekim#0%20The%20Writing%20System">
-          Tae Kim&apos;s Guide
-        </Anchor>{" "}
-        for more information.
       </Text>
     </TitledCard>
   );
