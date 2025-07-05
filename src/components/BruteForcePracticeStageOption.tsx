@@ -1,4 +1,4 @@
-onimport { Button, Collapse, Container, Group, Text } from "@mantine/core";
+import { Button, Collapse, Container, Group, Text } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import React, { useState } from "react";
 import { bruteForce, BruteForcePracticeStage } from "../utilities/bruteforce";
