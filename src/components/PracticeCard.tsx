@@ -20,7 +20,7 @@ export interface BackToMenuButtonProps {
 
 function BackToMenuButton({ onClick }: BackToMenuButtonProps) {
   return (
-    <Tooltip {...tooltipProps} label="Go back to menu">
+    <Tooltip {...tooltipProps} label="Voltar para o menu">
       <ActionIcon variant="light" onClick={onClick}>
         <IconChevronLeft size={32} />
       </ActionIcon>
