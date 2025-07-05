@@ -20,31 +20,31 @@ function BruteForceMenu() {
   return (
     <Container px={0}>
       <Text>
-        In this mode you will go through learning stages that introduce you to a new set of kana each time. The answer
-        for newly encountered kana will be shown automatically, pay extra attention to the shape of these kana. After
-        each learning stage, there is a review stage of every kana you have learnt so far. Each stage has a certain
-        requirement to clear, as you will see.
+        Neste modo você passará por estágios que te introduzirão um grupo de kana por vez. A resposta para novos kana aparecerá
+        automaticamente, por isso foque na forma do kana. Após cada um desses estágios, haverá um momento para revisão do que já aprendeu. 
+        Após cumprir os requerimentos você passará para o próximo estágio.
       </Text>
       <Title order={4} mt="sm">
-        Tips
+        Dicas
       </Title>
       <List pr={16}>
         <List.Item>
-          Do not feel pressured to move onto the next stage immediately when prompted, gauge yourself.
+          Não sinta-se pressionado para seguir para o próximo estágio imediatamente quando oferecido, reflita se está preparado.
         </List.Item>
-        <List.Item>You can continue from any stage you want within the options menu.</List.Item>
-        <List.Item>You should expect to need a total of ~1600 correct answers to clear all stages.</List.Item>
+        <List.Item>Você pode acabar notando que este aplicativo não salvar seu progresso, mas não se preocupe: você pode continuar 
+        de qualquer coluna antes de recomeçar a estudar.</List.Item>
+        <List.Item>Em média, são necessárias 1.600 respostas corretas para terminar todos os estágios.</List.Item>
         <List.Item>
-          Learning kana here will not necessarily make you able to <Text span>produce</Text> them. The only guarantee is
-          that you will be able to recognize kana on sight, which is enough (or at least a good start) for most people.
+          Aprender os kana aqui não necessariamente significa que você será capaz de reproduzí-los. A única garantia é 
+          que você se tornará capaz de reconhecê-los quando vê-los, o que é o suficiente para a maioria das pessoas.
         </List.Item>
       </List>
       <Text mt="sm">
-        You should learn{" "}
+        Recomenda-se que aprenda {" "}
         <Text span italic>
           hiragana
         </Text>{" "}
-        first.
+       primeiro.
       </Text>
 
       <Group mt="sm">
