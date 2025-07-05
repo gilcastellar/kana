@@ -173,7 +173,7 @@ function KanaBoard({ kanaType, combinations = false, onChange, options }: KanaBo
     <Container px={0}>
       <Group position="apart" mb="xs" mt="md">
         <Text weight="bold" size="1rem">
-          {kanaType[0].toUpperCase() + kanaType.slice(1)} {combinations && "Combinations"}
+          {kanaType[0].toUpperCase() + kanaType.slice(1)} {combinations && "Combinações"}
         </Text>
         <Group>
           <Checkbox
