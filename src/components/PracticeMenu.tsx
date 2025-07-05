@@ -27,7 +27,7 @@ function PracticeMenu({ onPageChange }: PracticeMenuProps) {
         <Text weight="normal">Configure e pratique da maneira que preferir</Text>
       </Button>
       <Button {...buttonProps} mt="sm" onClick={() => onPageChange("word")}>
-        <Title order={3}>Word Mode</Title>
+        <Title order={3}>Modo com palavras</Title>
         <Text weight="normal">Pratique kana por meio de palavras básicas do japonês</Text>
       </Button>
     </Container>
