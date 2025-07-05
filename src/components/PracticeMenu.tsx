@@ -19,16 +19,16 @@ function PracticeMenu({ onPageChange }: PracticeMenuProps) {
   return (
     <Container px={0}>
       <Button {...buttonProps} onClick={() => onPageChange("bruteforce")}>
-        <Title order={3}>Brute Force Mode</Title>
-        <Text weight="normal">Follow a structured route to learn kana from zero, one row at a time</Text>
+        <Title order={3}>Aprendizado estruturado</Title>
+        <Text weight="normal">Siga uma sequência estruturada para aprender os kana do zero, uma columa por vez</Text>
       </Button>
       <Button {...buttonProps} mt="sm" onClick={() => onPageChange("free")}>
-        <Title order={3}>Free Mode</Title>
-        <Text weight="normal">Practice by yourself with whichever kana and options you prefer</Text>
+        <Title order={3}>Modo livre</Title>
+        <Text weight="normal">Configure e pratique da maneira que preferir</Text>
       </Button>
       <Button {...buttonProps} mt="sm" onClick={() => onPageChange("word")}>
         <Title order={3}>Word Mode</Title>
-        <Text weight="normal">Practice kana chaining with words from N5/N4 decks</Text>
+        <Text weight="normal">Pratique kana por meio de palavras básicas do japonês</Text>
       </Button>
     </Container>
   );
