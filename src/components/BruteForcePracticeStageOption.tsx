@@ -34,7 +34,7 @@ function BruteForcePracticeStageOption({
           {stage.name}{" "}
           {current && (
             <Text span italic weight="bold" fz="sm" ml="lg">
-              Currently Attempting
+              Tentando no momento
             </Text>
           )}
         </Text>
@@ -48,7 +48,7 @@ function BruteForcePracticeStageOption({
                 toggle();
               }}
             >
-              {opened ? "Hide" : "Show"} Kana
+              {opened ? "Esconder" : "Mostrar"} Kana
             </Button>
             <Button variant="light" ml="sm" onClick={() => onStageChange(stage)}>
               Continue
